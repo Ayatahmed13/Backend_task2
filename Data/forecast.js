@@ -4,7 +4,7 @@
 
   const forecast = (latitude , longtitude , callback) => {
 
-    const url = "https://api.weatherapi.com/v1/current.json?key=7f97e74ef23b418c97a155211230503&q=" + latitude + "," + longtitude
+    const url = "https://api.weatherapi.com/v1/current.json?key=bab9bdd71a7e40a09f5115527242107&q=" + latitude + "," + longtitude
     
     request ({url , json : true  } , (error , response) => {
     
